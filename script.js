@@ -292,10 +292,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <p>Name of Time Zone: ${timezone}</p>
           <p>Latitude: ${inputLatitude}</p>
           <p>Longitude: ${inputLongitude}</p>
-          <p>Offset STD: ${offset_STD} (${offset_STD_seconds} seconds)</p>
-          <p>Offset STD Seconds: ${offset_STD} (${offset_STD_seconds} seconds)</p>
-          <p>Offset DST: ${offset_DST} (${offset_DST_seconds} seconds)</p>
-          <p>Offset DST Seconds: ${offset_DST} (${offset_DST_seconds} seconds)</p>
+          <p>Offset STD: ${offset_STD}</p>
+          <p>Offset STD Seconds: ${offset_STD_seconds} seconds</p>
+          <p>Offset DST: ${offset_DST}</p>
+          <p>Offset DST Seconds: ${offset_DST_seconds} seconds</p>
           <p>Country: ${country}</p>
           <p>Postcode: ${postcode}</p>
           <p>City:  ${city}</p>
@@ -316,4 +316,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   getCurrentLocation()
   submitBtn.addEventListener('click', getInputLocation)
+
 })
